@@ -1,1 +1,14 @@
+server:
+  servlet:
+    context-path: /api
 
+aws:
+  region: us-east-1
+
+sns:
+  topic:
+    arn: arn:aws:sns:us-east-1:777562829055:test-topic
+
+sqs:
+  queue:
+    url: https://sqs.us-east-1.amazonaws.com/777562829055/test-queue
